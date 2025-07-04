@@ -569,6 +569,10 @@ h2 {
 
 
 /* Sign In Page */
+.Login_Page{
+    position: relative;
+    height:850px;
+}
 .Signup_Form {
     top: 50%;
     left: 50%;
