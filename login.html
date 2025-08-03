@@ -27,21 +27,20 @@
                 <div class="hero_bg_overlay">  
                 </div>
                 <div class="Signup_Form" >
-                    <div class="signin"> Sign Up</div>
-                    <form action="backend.php" id="signupForm" >
-                    <div class="signin_input" > <input type="text" id="name" placeholder="Name"></div>
+                    <div class="signin"> Sign In</div>
+                    <form action="backend.php" id="loginForm">
                     <div class="signin_input" > <input type="email" id="email" placeholder="Email or Mobile Number"></div>
                     <div class="signin_input" >
                         <input type="password" class="email" id="password" placeholder="Password" />
                     </div>
-                    <button  type="submit" class="btn btn-danger" id="btn">Sign Up</button>
+                    <button  type="submit" class="btn btn-danger" id="btn">Sign In</button>
                     <p>OR</p>
-                    <button  type="button" class="btn btn-danger" id="btn2">Continue with Google</button>
-                    <!-- <div class="forgot"><a href="#">Forgot password?</a></div> -->
+                    <button  type="button" class="btn btn-danger" id="btn2">Use a sign-in code</button>
+                    <div class="forgot"><a href="#">Forgot password?</a></div>
                     <span> <input type="checkbox" name="" id="" class="remember"> Remember me</span>
-                    <div class="accCreate">Already have an account? <a id ="sign_in" href="#">Sign In now.</a></div>
+                    <div class="accCreate">New to Netflix? <a id ="sign_up" href="#">Sign Up now.</a></div>
                     <div class="condition">This page is protected by Google reCAPTCHA to ensure <br> you're not a bot. <br><a href="#">Learn More.</a></div>
-                    <p id="signupMessage" class="msg"></p>
+                    <p id="loginMessage" class="msg"></p>
                     </form>
                 </div>
         </main>
@@ -55,7 +54,7 @@
                             <input type="email" class="email" />
                             <label class="email-label">Email address</label>
                         </div>
-                        <button id="started" type="button" class="btn btn-danger">Get Started</button>
+                        <button type="button" class="btn btn-danger" id="started">Get Started</button>
                     </div>
                 </div>
                 <div class="footer-top">
@@ -104,6 +103,7 @@
                 </div>
             </footer>
      <script src="script.js" defer></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
